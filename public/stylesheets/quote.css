@@ -1,0 +1,62 @@
+/* Color Variables  */
+:root {
+  --arpie_blue: #2297de;
+  --arpie_black: #292b2c;
+  --arpie_red: #ff6f58;
+}
+
+.full-section {
+  min-height: 100vh;
+  padding-top: 13%;
+}
+
+.first-row {
+  padding-top: 50px;
+}
+
+.second-row {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.third-row {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.input-group {
+  padding-top:23px;
+  padding-bottom:23px;
+}
+
+.btn-submit {
+  background-color: var(--arpie_red);
+  font-family: 'Oxygen', sans-serif;
+  font-weight: 600;
+  font-size: 170%;
+  padding-right: 33px;
+  padding-left: 33px;
+}
+
+.job-dropdown {
+  font-size: 150%;
+}
+
+.services {
+    padding-top: 40px;
+}
+
+.checkbox {
+  font-size: 170%;
+  padding-top:20px;
+  padding-left:55px;
+}
+
+
+/* MOBILE VIEW */
+@media (max-width: 768px) {
+    .einstein {
+      width: 120px;
+    }
+
+}

@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ARPIE</title>
+
+    <!-- fullPage -->
+    <link rel="stylesheet" type="text/css" href="./public/stylesheets/jquery.fullpage.css" />
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="./public/stylesheets/bootstrap.min.css">
+    <link rel="stylesheet" href="./public/stylesheets/font-awesome.min.css">
+
+    <!-- Styling -->
+    <link rel="stylesheet" href="./public/stylesheets/arpie.css">
+    <link rel="stylesheet" href="./public/stylesheets/quote.css">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i|Roboto+Mono:400,500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,800" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oxygen:300,400,700" rel="stylesheet">
+
+
+  </head>
+  <body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="nav-container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class style="color:#2297de;"="fa fa-bars"></i>
+                    <!-- <span class="glyphicon glyphicon-menu-hamburger navbar-ham" aria-hidden="true"></span> -->
+                </button>
+                <a class="navbar-brand page-scroll nav-logo" href="./index.html">
+                    <!-- ARPIE -->
+                    <img class="img-responsive nav-logo-size" alt="" src="./public/images/logo/arpie_blue.svg">
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+              <ul class="nav navbar-nav">
+                  <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                  <li>
+                      <a class="navbar-font" href="./index.html">Home</a>
+                  </li>
+                  <li>
+                      <a class="navbar-font" href="./contact.html">Contact</a>
+                  </li>
+                  <li>
+                      <a class="navbar-font text-center" id="free-quote" href="./quote.html">Free Quote</a>
+                  </li>
+              </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <div class="section blue-background full-section">
+      <h1 class="arpie-font section-titles">Free Quote</h1>
+      <br>
+
+      <div class="row first-row">
+        <div class="col-sm-8 col-sm-offset-2">
+          <h2 class="arpie-p"> "Look deep into nature, and then you will understand everything better." </h2>
+          <img class="img-responsive center-block einstein" src="./public/images/np/albert-einstein.svg" alt="" id="contactDrone">
+          <h2 class="arpie-p">-Albert Einstein</h2>
+        </div>
+      </div>
+
+      <div class="row first-row">
+        <div class="col-sm-8 col-sm-offset-2">
+          <h1 class="arpie-fonts">Fill out this form and we will generate you <br>another free quote.</h1>
+        </div>
+      </div>
+
+      <div class="row second-row">
+        <div class="col-sm-6 col-sm-offset-3">
+          <!-- First Name -->
+          <div class="input-group input-group-lg">
+            <span class="input-group-addon" id="basic-addon1">First Name</span>
+            <input id="firstName" type="text" class="form-control" placeholder="" aria-describedby="basic-addon1">
+          </div>
+          <!-- Last Name -->
+          <div class="input-group  input-group-lg">
+            <span class="input-group-addon" id="basic-addon1">Last Name</span>
+            <input id="lastName" type="text" class="form-control" placeholder="" aria-describedby="basic-addon1">
+          </div>
+          <!-- Company -->
+          <div class="input-group  input-group-lg">
+            <span class="input-group-addon" id="basic-addon1">Company or Affiliation</span>
+            <input id="company" type="text" class="form-control" placeholder="" aria-describedby="basic-addon1">
+          </div>
+          <!-- Phone -->
+          <div class="input-group  input-group-lg">
+            <span class="input-group-addon" id="basic-addon1">Phone Number</span>
+            <input id="phone" type="text" class="form-control" placeholder="" aria-describedby="basic-addon1">
+          </div>
+          <!-- Email -->
+          <div class="input-group  input-group-lg">
+            <span class="input-group-addon" id="basic-addon1">Email</span>
+            <input id="email" type="text" class="form-control" placeholder="" aria-describedby="basic-addon1">
+          </div>
+          <!-- Job Location -->
+          <div class="input-group  input-group-lg">
+            <span class="input-group-addon" id="basic-addon1">Job Location</span>
+            <input id="location" type="text" class="form-control" placeholder="address" aria-describedby="basic-addon1">
+          </div>
+          <!-- Job Size -->
+          <div class="input-group input-group-lg text-left">
+            <h3>Approximate Job Size</h3>
+              <select class="form-control" id="jobSize">
+                <option val="1-10">1-10 Acres</option>
+                <option val="10-25">10-25 Acres</option>
+                <option val="25-50">25-50 Acres</option>
+                <option val="50-75">50-75 Acres</option>
+                <option val="75-100">75-100 Acres</option>
+                <option val="100+">100+ Acres</option>
+              </select>
+          </div>
+          <br>
+
+          <!-- Job Description -->
+          <h3 class="text-left">Job Description </h3>
+          <textarea id="jobDescription" class="form-control input-thick input-group" rows="6" placeholder=""></textarea>
+
+          <!-- Services -->
+          <h3 class="text-left services">Desired Services</h3>
+          <div class="checkbox text-left">
+            <label><input type="checkbox" value="Areal Photography">Areal Photography</label>
+          </div>
+          <div class="checkbox text-left">
+            <label><input type="checkbox" value="Areal 4K Videography">Areal 4K Videography</label>
+          </div>
+          <div class="checkbox text-left">
+            <label><input type="checkbox" value="Photogrammetric Maps">Photogrammetric Maps</label>
+          </div>
+          <div class="checkbox text-left">
+            <label><input type="checkbox" value="Digital Elevation Model (DEM)">Digital Elevation Model (DEM)</label>
+          </div>
+          <div class="checkbox text-left">
+            <label><input type="checkbox" value="Topographic Map">Topographic Map</label>
+          </div>
+          <div class="checkbox text-left">
+            <label><input type="checkbox" value="3D Landscape or Building Rendering">3D Landscape or Building Rendering</label>
+          </div>
+          <div class="checkbox text-left">
+            <label><input type="checkbox" value="Building or Facility Inspection">Building or Facility Inspection</label>
+          </div>
+          <div class="checkbox text-left">
+            <label><input type="checkbox" value="Drone Operator Lessons and Training">Drone Operator Lessons and Training</label>
+          </div>
+          <div class="checkbox text-left">
+            <label><input type="checkbox" value="Consulting">Consulting</label>
+          </div>
+        </div>
+      </div>
+      <div class="row third-row">
+        <button type="button" class="btn btn-lg btn-submit" name="button" id="quoteButton">GET FREE QUOTE</button>
+      </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript" src="./public/javascript/keen-tracking.js"></script>
+
+    <script type="text/javascript" src="./public/javascript/quote.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-122507962-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-122507962-1');
+    </script>
+    
+  </body>
+</html>

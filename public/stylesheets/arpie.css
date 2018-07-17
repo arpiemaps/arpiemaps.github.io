@@ -1,0 +1,226 @@
+/* Color Variables  */
+:root {
+  --arpie_blue: #2297de;
+  --arpie_black: #292b2c;
+  --arpie_red: #ff6f58;
+}
+
+.section {
+  text-align: center;
+}
+
+.arpie-p {
+  font-family: 'Oxygen', sans-serif;
+  font-weight: 300;
+  line-height: 2;
+}
+
+.arpie-font {
+  font-family: 'Exo 2', sans-serif;
+}
+
+.arpie-subfont {
+  line-height: 2;
+  font-family: 'Oxygen', sans-serif;
+  font-size: 200%;
+  font-weight: 700;
+}
+
+.section-titles {
+  font-family: 'Oxygen', sans-serif;
+  font-size: 700%;
+  /* font-size: 60px; */
+  font-weight: 700;
+}
+
+.subtitle {
+  font-family: 'Oxygen', sans-serif;
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 1.5;
+  text-transform: capitalize;
+}
+
+.btn-default {
+  background: none;
+  border-color: var(--arpie_red);
+  border-width: medium;
+  color: var(--arpie_red);
+  /* color: white; */
+  font-size: 200%;
+  font-family: 'Oxygen', sans-serif;
+  font-weight: 500;
+  filter: drop-shadow( 1px 1px 3px #000 );
+  padding-left:33px;
+  padding-right:33px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  margin-top: 5%;
+}
+
+.btn-default:hover {
+  background-color: var(--arpie_red);
+  color: white;
+  border-color: var(--arpie_red);
+}
+
+.btn-default:focus {
+  background-color: var(--arpie_red);
+  color: white;
+  border-color: var(--arpie_red);
+}
+
+
+.caps {
+  text-transform: capitalize;
+}
+
+.blue-background {
+  background-color: var(--arpie_blue);
+  color: white;
+}
+
+.nav-logo-size {
+  height: 40px;
+  margin-top: -10px;
+}
+
+.nav-logo {
+  /* height: 100px; */
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 700;
+  padding-right:50px;
+  padding-left:50px;
+}
+
+.navbar-custom {
+  background-color: rgba(255,255,255,.9);
+  border: none;
+}
+
+.navbar-font {
+  font-family: 'Oxygen', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.nav-container {
+  /* margin-left: 10px; */
+}
+
+.white {
+  color:white;
+}
+
+#free-quote {
+  background-color: var(--arpie_blue);
+  color: white;
+  padding-right:50px;
+  padding-left:50px;
+}
+
+/* Backgrounds will cover all the section
+	* --------------------------------------- */
+	.section{
+		background-size: cover;
+	}
+
+	.slide{
+		background-size: cover;
+	}
+
+	/* Defining each sectino background and styles
+	* --------------------------------------- */
+	/* #section0{
+		background-image: url(../images/background/arpie_home.png);
+	} */
+
+
+  #section0 {
+        background: linear-gradient(
+                       rgba(20,20,20, .3),
+                       rgba(20,20,20, .5)),
+                       /* url( ../images/background/arpie_home.png); */
+                       url( ../images/background/rolling_hills.jpg);
+
+        background-size: cover;
+        background-position: center;
+  }
+
+  #section1{
+    background: linear-gradient(
+                   rgba(20,20,20, .3),
+                   rgba(20,20,20, .5)),
+                   url( ../images/background/dem_hybrid.jpg);
+
+    background-size: cover;
+    background-position: center;
+	}
+
+  #section2{
+    background: linear-gradient(
+                   rgba(20,20,20, .3),
+                   rgba(20,20,20, .5)),
+                   url( ../images/background/vineyard.jpg);
+
+    background-size: cover;
+    background-position: center;
+	}
+
+  #section3{
+    background: linear-gradient(
+                   rgba(20,20,20, .3),
+                   rgba(20,20,20, .5)),
+                   url( ../images/background/rolling_hills.jpg);
+
+    background-size: cover;
+    background-position: center;
+	}
+
+  #logo {
+    /* drop-shadow: 0 2px 10px rgba(255,255,255,0.7); */
+    filter: drop-shadow( -5px -5px 5px #000 );
+    height: 20%;
+  }
+
+  .drop-shadow {
+    filter: drop-shadow( -5px -5px 5px #000 );
+  }
+
+  #contactDrone {
+    height: 200px;
+  }
+
+  #loading {
+    padding-top: 40vh;
+  }
+
+
+/* MOBILE VIEW */
+@media (max-width: 768px) {
+  .subtitle {
+    font-size: 35px;
+  }
+
+  .section-titles {
+    font-size: 400%;
+  }
+
+  #logo {
+    height: 13%;
+  }
+
+  .subtitle {
+    font-size: 30px;
+  }
+
+  .btn-default {
+    font-size: 20px;
+    margin-top: 15%;
+  }
+
+  .arpie-p {
+    font-size: 100%;
+  }
+
+}

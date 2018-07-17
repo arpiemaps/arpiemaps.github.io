@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ARPIE</title>
+
+    <!-- fullPage -->
+    <link rel="stylesheet" type="text/css" href="./public/stylesheets/jquery.fullpage.css" />
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="./public/stylesheets/bootstrap.min.css">
+    <link rel="stylesheet" href="./public/stylesheets/font-awesome.min.css">
+
+    <!-- Styling -->
+    <link rel="stylesheet" href="./public/stylesheets/arpie.css">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i|Roboto+Mono:400,500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,800" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oxygen:300,400,700" rel="stylesheet">
+
+
+  </head>
+  <body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="nav-container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class style="color:#2297de;"="fa fa-bars"></i>
+                    <!-- <span class="glyphicon glyphicon-menu-hamburger navbar-ham" aria-hidden="true"></span> -->
+                </button>
+                <a class="navbar-brand page-scroll nav-logo" href="./index.html">
+                    <!-- ARPIE -->
+                    <img class="img-responsive nav-logo-size" alt="" src="./public/images/logo/arpie_blue.svg">
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+              <ul class="nav navbar-nav">
+                  <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                  <li>
+                      <a class="navbar-font" href="./index.html">Home</a>
+                  </li>
+                  <li>
+                      <a class="navbar-font" href="./contact.html">Contact</a>
+                  </li>
+                  <li>
+                      <a class="navbar-font text-center" id="free-quote" href="./quote.html">Free Quote</a>
+                  </li>
+              </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <div id="fullpage">
+      <!-- Contact Us -->
+    	<div class="section blue-background">
+        <img class="img-responsive center-block" src="./public/images/np_drone-lift.svg" alt="" id="contactDrone">
+        <h1 class="arpie-font section-titles">CONTACT US</h1>
+        <br>
+        <div class="row">
+          <div class="col-sm-8 col-sm-offset-2">
+            <h2 class="arpie-p">If you want to discuss custom consulting or projects, <br> don't hesitate to call or email us with details.</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-3 col-sm-offset-3">
+            <h2 class="arpie-p"> <u>Phone</u> </h2>
+            <h2 class="arpie-p">805-555-5555</h2>
+          </div>
+          <div class="col-sm-3">
+            <h2 class="arpie-p"> <u>Email</u> </h2>
+            <h2 class="arpie-p">helloarpie@gmail.com</h2>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <!-- End Fullpage -->
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript" src="./public/javascript/jquery.fullpage.min.js"></script>
+
+    <script type="text/javascript">
+
+        $(document).ready(function() {
+          $('#fullpage').fullpage({
+            //Navigation
+          	menu: '#menu',
+          	lockAnchors: false,
+          	navigation: false,
+          //Scrolling
+        	css3: true,
+        	scrollingSpeed: 700,
+        	autoScrolling: true,
+        	fitToSection: true,
+        	fitToSectionDelay: 1000,
+        	scrollBar: false,
+        	easing: 'easeInOutCubic',
+        	easingcss3: 'ease',
+        	loopBottom: false,
+        	loopTop: false,
+        	loopHorizontal: true,
+        	continuousVertical: false,
+        	continuousHorizontal: false,
+        	scrollHorizontally: false,
+        	interlockedSlides: false,
+        	dragAndMove: true,
+        	offsetSections: false,
+        	resetSliders: false,
+        	fadingEffect: false,
+        	scrollOverflow: false,
+        	scrollOverflowReset: false,
+        	scrollOverflowOptions: null,
+        	touchSensitivity: 15,
+        	normalScrollElementTouchThreshold: 2,
+        	bigSectionsDestination: null,
+
+        	//Accessibility
+        	keyboardScrolling: true,
+        	animateAnchor: true,
+        	recordHistory: true,
+          });
+
+          //methods
+          $.fn.fullpage.setAllowScrolling(true);
+        });
+
+        // This binds the mouse scroll to the page views
+        $('html').bind('mousewheel DOMMouseScroll', function (e) {
+          // console.log('bingo');
+        });
+
+    </script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-122507962-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-122507962-1');
+    </script>
+    
+  </body>
+</html>
