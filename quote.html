@@ -26,19 +26,17 @@
   <body>
 
     <!-- Navigation -->
-    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+    <nav id="navbar" class="navbar navbar-custom navbar-fixed-top" role="navigation">
         <div class="nav-container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
-                    <i class style="color:#2297de;"="fa fa-bars"></i>
-                    <!-- <span class="glyphicon glyphicon-menu-hamburger navbar-ham" aria-hidden="true"></span> -->
+                    <h4 class="menu-icon">MENU</h4>
                 </button>
                 <a class="navbar-brand page-scroll nav-logo" href="./index.html">
                     <!-- ARPIE -->
                     <img class="img-responsive nav-logo-size" alt="" src="./public/images/logo/arpie_blue.svg">
                 </a>
             </div>
-
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
               <ul class="nav navbar-nav">
@@ -59,13 +57,14 @@
         <!-- /.container -->
     </nav>
 
-    <div class="section blue-background full-section">
+    <div class="section blue-background full-section quote-section">
       <h1 class="arpie-font section-titles">Free Quote</h1>
       <br>
 
       <div class="row first-row">
-        <div class="col-sm-8 col-sm-offset-2">
+        <div class="col-sm-10 col-sm-offset-1">
           <h2 class="arpie-p"> "Look deep into nature, and then you will understand everything better." </h2>
+
           <img class="img-responsive center-block einstein" src="./public/images/np/albert-einstein.svg" alt="" id="contactDrone">
           <h2 class="arpie-p">-Albert Einstein</h2>
         </div>
@@ -78,35 +77,35 @@
       </div>
 
       <div class="row second-row">
-        <div class="col-sm-6 col-sm-offset-3">
+        <div class="col-sm-6 col-sm-offset-3 text-left">
           <!-- First Name -->
+          <h3>First Name</h3>
           <div class="input-group input-group-lg">
-            <span class="input-group-addon" id="basic-addon1">First Name</span>
             <input id="firstName" type="text" class="form-control" placeholder="" aria-describedby="basic-addon1">
           </div>
           <!-- Last Name -->
+          <h3>Last Name</h3>
           <div class="input-group  input-group-lg">
-            <span class="input-group-addon" id="basic-addon1">Last Name</span>
             <input id="lastName" type="text" class="form-control" placeholder="" aria-describedby="basic-addon1">
           </div>
           <!-- Company -->
+          <h3>Company or Affiliation</h3>
           <div class="input-group  input-group-lg">
-            <span class="input-group-addon" id="basic-addon1">Company or Affiliation</span>
             <input id="company" type="text" class="form-control" placeholder="" aria-describedby="basic-addon1">
           </div>
           <!-- Phone -->
+          <h3>Phone Number</h3>
           <div class="input-group  input-group-lg">
-            <span class="input-group-addon" id="basic-addon1">Phone Number</span>
             <input id="phone" type="text" class="form-control" placeholder="" aria-describedby="basic-addon1">
           </div>
           <!-- Email -->
+          <h3>Email</h3>
           <div class="input-group  input-group-lg">
-            <span class="input-group-addon" id="basic-addon1">Email</span>
             <input id="email" type="text" class="form-control" placeholder="" aria-describedby="basic-addon1">
           </div>
           <!-- Job Location -->
+          <h3>Job Location</h3>
           <div class="input-group  input-group-lg">
-            <span class="input-group-addon" id="basic-addon1">Job Location</span>
             <input id="location" type="text" class="form-control" placeholder="address" aria-describedby="basic-addon1">
           </div>
           <!-- Job Size -->
@@ -182,6 +181,6 @@
 
       gtag('config', 'UA-122507962-1');
     </script>
-    
+
   </body>
 </html>

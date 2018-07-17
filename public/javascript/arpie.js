@@ -3,12 +3,13 @@
 //
 $(document).ready(function() {
 
+
   // onload, set timeout for loading screen
   setTimeout(function(){
     console.log('Ready');
     $("#loading").hide();
     $("#fullpage").fadeIn(1500);
-
+    $("#navbar").fadeIn(1500);
   }, 2300);
 
 
@@ -41,7 +42,7 @@ $(document).ready(function() {
   scrollOverflow: false,
   scrollOverflowReset: false,
   scrollOverflowOptions: null,
-  touchSensitivity: 35,
+  touchSensitivity: 20,
   normalScrollElementTouchThreshold: 1,
   bigSectionsDestination: null,
 
@@ -50,6 +51,7 @@ $(document).ready(function() {
   animateAnchor: true,
   recordHistory: true,
   });
+
 
   //methods
   $.fn.fullpage.setAllowScrolling(true);

@@ -5,6 +5,21 @@
   --arpie_red: #ff6f58;
 }
 
+.full-section {
+  min-height: 100vh;
+  padding-top: 13%;
+}
+
+.full-section-contact {
+  height: 100vh;
+  padding-top: 20%;
+}
+
+.menu-icon {
+  color: var(--arpie_blue);
+  font-family: 'Exo 2', sans-serif;
+}
+
 .section {
   text-align: center;
 }
@@ -16,7 +31,8 @@
 }
 
 .arpie-font {
-  font-family: 'Exo 2', sans-serif;
+  /* font-family: 'Exo 2', sans-serif; */
+    font-family: 'Oxygen', sans-serif;
 }
 
 .arpie-subfont {
@@ -203,11 +219,25 @@
   }
 
   .section-titles {
-    font-size: 400%;
+    font-size: 300%;
   }
 
   #logo {
     height: 13%;
+  }
+
+  .navbar-brand {
+    padding-left: 13px;
+  }
+
+  .nav-logo-size {
+    height: 40px;
+    margin-top: -5px;
+  }
+
+  .navbar-toggle {
+    margin-top:0px;
+    margin-bottom:0px;
   }
 
   .subtitle {
@@ -221,6 +251,12 @@
 
   .arpie-p {
     font-size: 100%;
+  }
+
+  .full-section-contact {
+    padding-top: 25%;
+    padding-left: 13px;
+    padding-right: 13px;
   }
 
 }
