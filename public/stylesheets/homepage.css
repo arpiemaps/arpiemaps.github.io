@@ -1,0 +1,165 @@
+/* Color Variables  */
+:root {
+  --arpie_blue: #2297de;
+  --arpie_black: #292b2c;
+  --arpie_red: #ff6f58;
+}
+
+.sm-photo {
+  /* max-height: 200px; */
+}
+
+.contact {
+  background-color: white;
+}
+
+#free-quote {
+  background-color: var(--arpie_red);
+  color: white;
+  padding-right:50px;
+  padding-left:50px;
+}
+
+  #myVideo {
+    position: fixed;
+    right: 0;
+    top: 0;
+    min-width: 100%;
+    min-height: 50%;
+    z-index:-1;
+}
+
+#section0 {
+  background: linear-gradient(
+                 rgba(20,20,20, .2),
+                 rgba(20,20,20, .5)),
+                 url( ../images/photos/as_quary-site.jpg);
+                 /* url( ../images/background/rolling_hills.jpg); */
+
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  z-index: 2;
+  padding-top:170px;
+}
+
+#loading {
+  padding-top: 40vh;
+}
+
+.industry-photo {
+  height: 30vw;
+  border-color: white;
+  border-style: solid;
+  border-width: 10px;
+}
+
+.industry-text {
+  padding-top: 10vw;
+}
+
+#survey {
+  background: linear-gradient(
+                 rgba(20,20,20, .2),
+                 rgba(20,20,20, .5)),
+                 url( ../images/preview/city-streets.jpeg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+}
+
+#solar {
+  background: linear-gradient(
+                 rgba(20,20,20, .2),
+                 rgba(20,20,20, .5)),
+                 url( ../images/preview/solar-panels.jpeg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+}
+
+#conservation {
+  background: linear-gradient(
+                 rgba(20,20,20, .2),
+                 rgba(20,20,20, .5)),
+                 url( ../images/preview/coastline.jpeg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+}
+
+#fires {
+  background: linear-gradient(
+                 rgba(20,20,20, .2),
+                 rgba(20,20,20, .5)),
+                 url( ../images/preview/as_drone-fire.jpeg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+}
+
+#roofing {
+  background: linear-gradient(
+                 rgba(20,20,20, .2),
+                 rgba(20,20,20, .5)),
+                 url( ../images/preview/roofing1.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+}
+
+#construction {
+  background: linear-gradient(
+                 rgba(20,20,20, .2),
+                 rgba(20,20,20, .5)),
+                 url( ../images/preview/as_house-walls.jpeg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+}
+
+#insurance {
+  background: linear-gradient(
+                 rgba(20,20,20, .2),
+                 rgba(20,20,20, .5)),
+                 url( ../images/preview/as_energy-fire.jpeg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+}
+
+#realestate {
+  background: linear-gradient(
+                 rgba(20,20,20, .2),
+                 rgba(20,20,20, .5)),
+                 url( ../images/preview/pool.jpeg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+}
+
+#training {
+  background: linear-gradient(
+                 rgba(20,20,20, .2),
+                 rgba(20,20,20, .5)),
+                 url( ../images/preview/drone-takingphoto.jpeg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+}
+
+
+/* MOBILE VIEW */
+@media (max-width: 768px) {
+  #section0 {
+    height: auto;
+  }
+
+  .industry-photo {
+    height: 90vw;
+  }
+  .industry-text {
+    padding-top: 40vw;
+  }
+
+}

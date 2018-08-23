@@ -22,7 +22,8 @@
   <body class="blue-background">
 
     <!-- Navigation -->
-    <nav id="navbar" class="navbar navbar-custom navbar-fixed-top" role="navigation" hidden>
+    <nav id="navbar" class="navbar navbar-custom navbar-fixed-top" role="navigation">
+    <!-- <nav id="navbar" class="navbar navbar-custom" role="navigation" hidden> -->
         <div class="nav-container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
@@ -38,7 +39,42 @@
               <ul class="nav navbar-nav">
                   <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
                   <li>
-                      <a class="navbar-font" href="./index.html">Home</a>
+                      <a class="navbar-font active-nav" href="./index.html">Home</a>
+                  </li>
+                  <li>
+                      <a class="navbar-font" href="./services.html">Drone Services</a>
+                  </li>
+                  <li role="presentation" class="dropdown">
+                      <a class="dropdown-toggle navbar-font" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Industries <span class="caret"></span></a>
+                      <ul class="dropdown-menu">
+                        <li>
+                          <a class="navbar-font navbar-dropdown-item" href="./industry/surveying.html">Surveying</a>
+                        </li>
+                        <li>
+                          <a class="navbar-font navbar-dropdown-item" href="./industry/solar.html">Solar Energy</a>
+                        </li>
+                        <li>
+                          <a class="navbar-font navbar-dropdown-item" href="./industry/conservation.html">Conservation</a>
+                        </li>
+                        <li>
+                          <a class="navbar-font navbar-dropdown-item" href="./industry/wildfires.html">Wild Fires </a>
+                        </li>
+                        <li>
+                          <a class="navbar-font navbar-dropdown-item" href="./industry/roofing.html">Roofing</a>
+                        </li>
+                        <li>
+                          <a class="navbar-font navbar-dropdown-item" href="./industry/construction.html">Construction</a>
+                        </li>
+                        <li>
+                          <a class="navbar-font navbar-dropdown-item" href="./industry/insurance.html">Insurance</a>
+                        </li>
+                        <li>
+                          <a class="navbar-font navbar-dropdown-item" href="./industry/real-estate.html">Real Estate</a>
+                        </li>
+                        <li>
+                          <a class="navbar-font navbar-dropdown-item" href="./industry/drone-training.html">Drone Training</a>
+                        </li>
+                      </ul>
                   </li>
                   <li>
                       <a class="navbar-font" href="./contact.html">Contact</a>
@@ -75,6 +111,12 @@
         </div>
       </div>
 
+    </div>
+
+    <div class="section blue-background">
+      <div class="row text-center">
+        <p class="copyright">&copy 2018 ARPIE. All Rights Reserved.</p>
+      </div>
     </div>
 
 

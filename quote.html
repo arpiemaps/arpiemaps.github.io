@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>ARPIE</title>
+    <link rel="shortcut icon" type="image/x-icon" href="./public/images/favicon/arpie-white.ico" />
 
     <!-- fullPage -->
     <link rel="stylesheet" type="text/css" href="./public/stylesheets/jquery.fullpage.css" />
@@ -27,6 +28,7 @@
 
     <!-- Navigation -->
     <nav id="navbar" class="navbar navbar-custom navbar-fixed-top" role="navigation">
+    <!-- <nav id="navbar" class="navbar navbar-custom" role="navigation" hidden> -->
         <div class="nav-container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
@@ -42,7 +44,42 @@
               <ul class="nav navbar-nav">
                   <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
                   <li>
-                      <a class="navbar-font" href="./index.html">Home</a>
+                      <a class="navbar-font active-nav" href="./index.html">Home</a>
+                  </li>
+                  <li>
+                      <a class="navbar-font" href="./services.html">Drone Services</a>
+                  </li>
+                  <li role="presentation" class="dropdown">
+                      <a class="dropdown-toggle navbar-font" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Industries <span class="caret"></span></a>
+                      <ul class="dropdown-menu">
+                        <li>
+                          <a class="navbar-font navbar-dropdown-item" href="./industry/surveying.html">Surveying</a>
+                        </li>
+                        <li>
+                          <a class="navbar-font navbar-dropdown-item" href="./industry/solar.html">Solar Energy</a>
+                        </li>
+                        <li>
+                          <a class="navbar-font navbar-dropdown-item" href="./industry/conservation.html">Conservation</a>
+                        </li>
+                        <li>
+                          <a class="navbar-font navbar-dropdown-item" href="./industry/wildfires.html">Wild Fires </a>
+                        </li>
+                        <li>
+                          <a class="navbar-font navbar-dropdown-item" href="./industry/roofing.html">Roofing</a>
+                        </li>
+                        <li>
+                          <a class="navbar-font navbar-dropdown-item" href="./industry/construction.html">Construction</a>
+                        </li>
+                        <li>
+                          <a class="navbar-font navbar-dropdown-item" href="./industry/insurance.html">Insurance</a>
+                        </li>
+                        <li>
+                          <a class="navbar-font navbar-dropdown-item" href="./industry/real-estate.html">Real Estate</a>
+                        </li>
+                        <li>
+                          <a class="navbar-font navbar-dropdown-item" href="./industry/drone-training.html">Drone Training</a>
+                        </li>
+                      </ul>
                   </li>
                   <li>
                       <a class="navbar-font" href="./contact.html">Contact</a>
@@ -57,60 +94,58 @@
         <!-- /.container -->
     </nav>
 
-    <div class="section blue-background full-section quote-section">
-      <h1 class="arpie-font section-titles">Free Quote</h1>
-      <br>
-
-      <div class="row first-row">
-        <div class="col-sm-10 col-sm-offset-1">
-          <h2 class="arpie-p"> "Look deep into nature, and then you will understand everything better." </h2>
-
-          <img class="img-responsive center-block einstein" src="./public/images/np/albert-einstein.svg" alt="" id="contactDrone">
-          <h2 class="arpie-p">-Albert Einstein</h2>
+    <div class="section container white-background quote-section">
+      <div class="row fat-row">
+        <h1 class="arpie-title section-titles">Free Quote</h1>
+        <img class="img img-responsive einstein center-block" src="./public/images/np/albert-einstein-black.svg" alt="">
+        <br>
+        <p class="arpie-p"> "Look deep into nature, and then you will understand everything better. -Albert Einstein" </p>
+      </div>
+      <div class="row">
+        <div class="col-sm-6 col-sm-offset-3">
+          <div class="well">
+            <h2 class="arpie-p">Fill out this form and we will e-mail you with a free quote.</h2>
+          </div>
         </div>
       </div>
+    </div>
 
-      <div class="row first-row">
-        <div class="col-sm-8 col-sm-offset-2">
-          <h1 class="arpie-fonts">Fill out this form and we will generate you <br>another free quote.</h1>
-        </div>
-      </div>
-
+    <div class="section blue-background">
       <div class="row second-row">
-        <div class="col-sm-6 col-sm-offset-3 text-left">
+        <div class="col-sm-4 col-sm-offset-4 text-left">
           <!-- First Name -->
-          <h3>First Name</h3>
+          <h3 class="arpie-p">First Name</h3>
           <div class="input-group input-group-lg">
             <input id="firstName" type="text" class="form-control" placeholder="" aria-describedby="basic-addon1">
           </div>
           <!-- Last Name -->
-          <h3>Last Name</h3>
+          <h3 class="arpie-p">Last Name</h3>
           <div class="input-group  input-group-lg">
             <input id="lastName" type="text" class="form-control" placeholder="" aria-describedby="basic-addon1">
           </div>
           <!-- Company -->
-          <h3>Company or Affiliation</h3>
+          <h3 class="arpie-p">Company or Affiliation</h3>
           <div class="input-group  input-group-lg">
             <input id="company" type="text" class="form-control" placeholder="" aria-describedby="basic-addon1">
           </div>
           <!-- Phone -->
-          <h3>Phone Number</h3>
+          <h3 class="arpie-p">Phone Number</h3>
           <div class="input-group  input-group-lg">
             <input id="phone" type="text" class="form-control" placeholder="" aria-describedby="basic-addon1">
           </div>
           <!-- Email -->
-          <h3>Email</h3>
+          <h3 class="arpie-p">Email</h3>
           <div class="input-group  input-group-lg">
             <input id="email" type="text" class="form-control" placeholder="" aria-describedby="basic-addon1">
           </div>
           <!-- Job Location -->
-          <h3>Job Location</h3>
+          <h3 class="arpie-p">Your Site Location</h3>
           <div class="input-group  input-group-lg">
             <input id="location" type="text" class="form-control" placeholder="address" aria-describedby="basic-addon1">
           </div>
           <!-- Job Size -->
           <div class="input-group input-group-lg text-left">
-            <h3>Approximate Job Size</h3>
+            <h3 class="arpie-p">Approximate Job Size</h3>
               <select class="form-control" id="jobSize">
                 <option val="1-10">1-10 Acres</option>
                 <option val="10-25">10-25 Acres</option>
@@ -123,11 +158,11 @@
           <br>
 
           <!-- Job Description -->
-          <h3 class="text-left">Job Description </h3>
+          <h3 class="arpie-p" class="text-left">Job Description </h3>
           <textarea id="jobDescription" class="form-control input-thick input-group" rows="6" placeholder=""></textarea>
 
           <!-- Services -->
-          <h3 class="text-left services">Desired Services</h3>
+          <h3 class="arpie-p" class="text-left services">Desired Services</h3>
           <div class="checkbox text-left">
             <label><input type="checkbox" value="Areal Photography">Areal Photography</label>
           </div>
@@ -158,7 +193,13 @@
         </div>
       </div>
       <div class="row third-row">
-        <button type="button" class="btn btn-lg btn-submit" name="button" id="quoteButton">GET FREE QUOTE</button>
+        <button type="button" class="btn btn-lg btn-submit" name="button" id="quoteButton">Submit Quote</button>
+      </div>
+    </div>
+
+    <div class="section blue-background">
+      <div class="row text-center">
+        <p class="copyright">&copy 2018 ARPIE. All Rights Reserved.</p>
       </div>
     </div>
 

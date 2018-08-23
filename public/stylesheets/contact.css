@@ -1,0 +1,32 @@
+/* Color Variables  */
+:root {
+  --arpie_blue: #2297de;
+  --arpie_black: #292b2c;
+  --arpie_red: #ff6f58;
+}
+
+
+  #contactDrone {
+    height: 200px;
+  }
+
+  .full-section-contact {
+    height: 50%;
+    padding-top: 10%;
+  }
+
+  .second-section-contact {
+    height: 50%;
+    padding-top: 30px;
+    padding-bottom: 30%;
+  }
+
+
+/* MOBILE VIEW */
+@media (max-width: 768px) {
+  .full-section-contact {
+    padding-top: 25%;
+    padding-left: 13px;
+    padding-right: 13px;
+  }
+}

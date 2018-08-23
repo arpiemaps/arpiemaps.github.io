@@ -5,69 +5,82 @@ $(document).ready(function() {
 
 
   // onload, set timeout for loading screen
-  setTimeout(function(){
-    console.log('Ready');
-    $("#loading").hide();
-    $("#fullpage").fadeIn(1500);
-    $("#navbar").fadeIn(1500);
-  }, 2300);
+  // setTimeout(function(){
+  //   console.log('Ready');
+  //   $("#loading").hide();
+  //   $("#fullpage").fadeIn(1500);
+  //   $("#navbar").fadeIn(1500);
+  // }, 2300);
+
+  //
+  // $('#fullpage').fullpage({
+  // // new fullpage('#fullpage',{
+  //   //Navigation
+  //   menu: '#menu',
+  //   lockAnchors: false,
+  //   navigation: true,
+  // //Scrolling
+  // css3: true,
+  // scrollingSpeed: 1200,
+  // autoScrolling: true,
+  // fitToSection: true,
+  // fitToSectionDelay: 1000,
+  // scrollBar: false,
+  // easing: 'easeInOutCubic',
+  // easingcss3: 'ease',
+  // loopBottom: false,
+  // loopTop: false,
+  // loopHorizontal: true,
+  // continuousVertical: false,
+  // continuousHorizontal: false,
+  // scrollHorizontally: false,
+  // interlockedSlides: false,
+  // dragAndMove: true,
+  // offsetSections: false,
+  // resetSliders: false,
+  // fadingEffect: false,
+  // scrollOverflow: false,
+  // scrollOverflowReset: false,
+  // scrollOverflowOptions: null,
+  // touchSensitivity: 20,
+  // normalScrollElementTouchThreshold: 1,
+  // bigSectionsDestination: null,
+  //
+  // //Accessibility
+  // keyboardScrolling: true,
+  // animateAnchor: true,
+  // recordHistory: true,
+  // });
+  //
+  //
+  // //methods
+  // $.fn.fullpage.setAllowScrolling(true);
+  //
+  //
+  //
+  // // This binds the mouse scroll to the page views
+  // $('html').bind('mousewheel DOMMouseScroll', function (e) {
+  //   // console.log('bingo');
+  // });
+  //
+  //
+  // // learn more button
+  // $("#learnMore").click(()=>{
+  //   $.fn.fullpage.moveSectionDown();
+  // });
+  //
 
 
-  $('#fullpage').fullpage({
-  // new fullpage('#fullpage',{
-    //Navigation
-    menu: '#menu',
-    lockAnchors: false,
-    navigation: true,
-  //Scrolling
-  css3: true,
-  scrollingSpeed: 1200,
-  autoScrolling: true,
-  fitToSection: true,
-  fitToSectionDelay: 1000,
-  scrollBar: false,
-  easing: 'easeInOutCubic',
-  easingcss3: 'ease',
-  loopBottom: false,
-  loopTop: false,
-  loopHorizontal: true,
-  continuousVertical: false,
-  continuousHorizontal: false,
-  scrollHorizontally: false,
-  interlockedSlides: false,
-  dragAndMove: true,
-  offsetSections: false,
-  resetSliders: false,
-  fadingEffect: false,
-  scrollOverflow: false,
-  scrollOverflowReset: false,
-  scrollOverflowOptions: null,
-  touchSensitivity: 20,
-  normalScrollElementTouchThreshold: 1,
-  bigSectionsDestination: null,
 
-  //Accessibility
-  keyboardScrolling: true,
-  animateAnchor: true,
-  recordHistory: true,
-  });
-
-
-  //methods
-  $.fn.fullpage.setAllowScrolling(true);
-
-
-
-  // This binds the mouse scroll to the page views
-  $('html').bind('mousewheel DOMMouseScroll', function (e) {
-    // console.log('bingo');
-  });
-
-
-  // learn more button
   $("#learnMore").click(()=>{
-    $.fn.fullpage.moveSectionDown();
+    var offset = 50; //Offset of 20px
+
+    $('html, body').animate({
+        scrollTop: $("#section1").offset().top - offset
+    }, 2000);
   });
+
+
 
 
   //----------------

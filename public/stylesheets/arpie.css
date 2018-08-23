@@ -3,16 +3,39 @@
   --arpie_blue: #2297de;
   --arpie_black: #292b2c;
   --arpie_red: #ff6f58;
+  --arpie_green: #39ca74;
+}
+
+body {
+  width: 100vw;
+}
+
+#free-quote {
+  background-color: var(--arpie_red);
+  color: white;
+  padding-right:40px;
+  padding-left:40px;
+}
+
+.footer {
+  background-color: var(--arpie_blue);
+  width: 100%;
+}
+.container {
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 100vw;
+}
+
+p {
+  padding-bottom:15px;
+  line-height: 2;
+  font-size: 120%;
 }
 
 .full-section {
   min-height: 100vh;
   padding-top: 13%;
-}
-
-.full-section-contact {
-  height: 100vh;
-  padding-top: 20%;
 }
 
 .menu-icon {
@@ -24,6 +47,22 @@
   text-align: center;
 }
 
+/* - - - - - - - - - - - - - - - - - - - - */
+/* FONTS */
+/* - - - - - - - - - - - - - - - - - - - - */
+.arpie-title {
+  font-family: 'Exo 2', sans-serif;
+  font-size: 350%;
+  line-height: 1.5;
+  padding-bottom: 30px;
+}
+
+.arpie-title-font {
+  font-family: 'Exo 2', sans-serif;
+  font-size: 350%;
+  line-height: 1.5;
+}
+
 .arpie-p {
   font-family: 'Oxygen', sans-serif;
   font-weight: 300;
@@ -33,44 +72,58 @@
 .arpie-font {
   /* font-family: 'Exo 2', sans-serif; */
     font-family: 'Oxygen', sans-serif;
+    line-height: 1.5;
 }
 
 .arpie-subfont {
-  line-height: 2;
-  font-family: 'Oxygen', sans-serif;
-  font-size: 200%;
-  font-weight: 700;
-}
-
-.section-titles {
-  font-family: 'Oxygen', sans-serif;
-  font-size: 700%;
-  /* font-size: 60px; */
-  font-weight: 700;
-}
-
-.subtitle {
-  font-family: 'Oxygen', sans-serif;
-  font-size: 80px;
-  font-weight: 700;
   line-height: 1.5;
-  text-transform: capitalize;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 250%;
+  font-weight: 400;
+}
+
+.arpie-subfont-small {
+  line-height: 1.6;
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 400;
+  font-size: 110%;
+}
+
+.navbar-font {
+  font-family: 'Oxygen', sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.copyright {
+  font-weight: 300;
+}
+/* END FONTS */
+/* - - - - - - - - - - - - - - - - - - - - */
+/* - - - - - - - - - - - - - - - - - - - - */
+/* - - - - - - - - - - - - - - - - - - - - */
+
+
+/* - - - - - - - - - - - - - - - - - - - - */
+/* BUTTONS */
+/* - - - - - - - - - - - - - - - - - - - - */
+.btn {
+  text-transform: uppercase;
 }
 
 .btn-default {
   background: none;
   border-color: var(--arpie_red);
-  border-width: medium;
+  border-width: thin;
   color: var(--arpie_red);
   /* color: white; */
-  font-size: 200%;
+  font-size: 120%;
   font-family: 'Oxygen', sans-serif;
   font-weight: 500;
-  filter: drop-shadow( 1px 1px 3px #000 );
   padding-left:33px;
   padding-right:33px;
-  padding-top: 9px;
-  padding-bottom: 9px;
+  padding-top: 13px;
+  padding-bottom: 13px;
   margin-top: 5%;
 }
 
@@ -86,14 +139,84 @@
   border-color: var(--arpie_red);
 }
 
-
-.caps {
-  text-transform: capitalize;
+.btn-red {
+  background:  var(--arpie_red);
+  border-color: var(--arpie_red);
+  border-width: medium;
+  color: white;
+  /* color: white; */
+  font-size: 120%;
+  font-family: 'Oxygen', sans-serif;
+  font-weight: 500;
+  padding-left:33px;
+  padding-right:33px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  margin-top: 5%;
 }
+
+.btn-red:hover {
+  border-color: var(--arpie_blue);
+  background-color: var(--arpie_blue);
+  filter: drop-shadow( 0px 0px 0px #000 );
+}
+
+.btn-red:focus {
+  background-color: var(--arpie_red);
+  border-color: var(--arpie_red);
+}
+
+/* white BUTTON */
+.btn-white {
+  background:  white;
+  border-color: white;
+  border-width: medium;
+  color: white;
+  /* color: white; */
+  font-size: 120%;
+  font-family: 'Oxygen', sans-serif;
+  font-weight: 500;
+  padding-left:33px;
+  padding-right:33px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  margin-top: 5%;
+}
+
+ /* BLUE BUTTON */
+ .btn-blue {
+   background:  var(--arpie_blue);
+   border-color: var(--arpie_blue);
+   border-width: medium;
+   color: white;
+   /* color: white; */
+   font-size: 120%;
+   font-family: 'Oxygen', sans-serif;
+   font-weight: 500;
+   padding-left:33px;
+   padding-right:33px;
+   padding-top: 13px;
+   padding-bottom: 13px;
+   margin-top: 5%;
+ }
+/* END BUTTONS */
+/* - - - - - - - - - - - - - - - - - - - - */
+/* - - - - - - - - - - - - - - - - - - - - */
+/* - - - - - - - - - - - - - - - - - - - - */
 
 .blue-background {
   background-color: var(--arpie_blue);
   color: white;
+}
+
+.white-background {
+  background-color: #f3f3f3;
+  color: black;
+}
+
+.real-white-background {
+  background-color: white;
+  color: black;
 }
 
 .nav-logo-size {
@@ -101,6 +224,16 @@
   margin-top: -10px;
 }
 
+.padded-col {
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+
+/* - - - - - - - - - - - - - - - - - - - - */
+/* - - - - - - - - - - - - - - - - - - - - */
+/* NAV BAR*/
+/* - - - - - - - - - - - - - - - - - - - - */
 .nav-logo {
   /* height: 100px; */
   font-family: 'Exo 2', sans-serif;
@@ -114,118 +247,65 @@
   border: none;
 }
 
-.navbar-font {
-  font-family: 'Oxygen', sans-serif;
-  font-weight: 700;
-  text-transform: uppercase;
+.active-nav {
+  background-color: var(--arpie_blue);
+  color:white;
+}
+/* END NAV BAR */
+/* - - - - - - - - - - - - - - - - - - - - */
+/* - - - - - - - - - - - - - - - - - - - - */
+/* - - - - - - - - - - - - - - - - - - - - */
+
+
+/* Photos */
+.do-photo {
+  height: 150px;
 }
 
-.nav-container {
-  /* margin-left: 10px; */
+.fat-row {
+  padding-top:40px;
+  padding-bottom:40px;
+}
+
+.fat-bottom {
+  padding-bottom:40px;
+}
+
+.hi-waters-row {
+  padding-top:40px;
+  padding-bottom:20px;
 }
 
 .white {
   color:white;
 }
 
-#free-quote {
-  background-color: var(--arpie_blue);
-  color: white;
-  padding-right:50px;
-  padding-left:50px;
+.section{
+	background-size: cover;
 }
 
-/* Backgrounds will cover all the section
-	* --------------------------------------- */
-	.section{
-		background-size: cover;
-	}
+.drop-shadow {
+  filter: drop-shadow( -3px -3px 3px #000 );
+}
 
-	.slide{
-		background-size: cover;
-	}
+.dropdown-menu {
+  background-color: rgba(255,255,255,.9);
+  border: none;
+  padding-left: 13px;
+}
 
-	/* Defining each sectino background and styles
-	* --------------------------------------- */
-	/* #section0{
-		background-image: url(../images/background/arpie_home.png);
-	} */
-
-
-  #section0 {
-        background: linear-gradient(
-                       rgba(20,20,20, .3),
-                       rgba(20,20,20, .5)),
-                       /* url( ../images/background/arpie_home.png); */
-                       url( ../images/background/rolling_hills.jpg);
-
-        background-size: cover;
-        background-position: center;
-  }
-
-  #section1{
-    background: linear-gradient(
-                   rgba(20,20,20, .3),
-                   rgba(20,20,20, .5)),
-                   url( ../images/background/dem_hybrid.jpg);
-
-    background-size: cover;
-    background-position: center;
-	}
-
-  #section2{
-    background: linear-gradient(
-                   rgba(20,20,20, .3),
-                   rgba(20,20,20, .5)),
-                   url( ../images/background/vineyard.jpg);
-
-    background-size: cover;
-    background-position: center;
-	}
-
-  #section3{
-    background: linear-gradient(
-                   rgba(20,20,20, .3),
-                   rgba(20,20,20, .5)),
-                   url( ../images/background/rolling_hills.jpg);
-
-    background-size: cover;
-    background-position: center;
-	}
-
-  #logo {
-    /* drop-shadow: 0 2px 10px rgba(255,255,255,0.7); */
-    filter: drop-shadow( -5px -5px 5px #000 );
-    height: 20%;
-  }
-
-  .drop-shadow {
-    filter: drop-shadow( -5px -5px 5px #000 );
-  }
-
-  #contactDrone {
-    height: 200px;
-  }
-
-  #loading {
-    padding-top: 40vh;
-  }
+.dropdown-menu>li>a {
+  padding-left: 10px;
+  margin-bottom: 7px;
+  font-family: 'Oxygen', sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: var(--arpie_blue);
+}
 
 
 /* MOBILE VIEW */
 @media (max-width: 768px) {
-  .subtitle {
-    font-size: 35px;
-  }
-
-  .section-titles {
-    font-size: 300%;
-  }
-
-  #logo {
-    height: 13%;
-  }
-
   .navbar-brand {
     padding-left: 13px;
   }
@@ -240,9 +320,7 @@
     margin-bottom:0px;
   }
 
-  .subtitle {
-    font-size: 30px;
-  }
+  /*  */
 
   .btn-default {
     font-size: 20px;
@@ -253,10 +331,9 @@
     font-size: 100%;
   }
 
-  .full-section-contact {
-    padding-top: 25%;
-    padding-left: 13px;
-    padding-right: 13px;
+  .copyright {
+    font-size: 80%;
   }
-
 }
+
+/* Nav bar */

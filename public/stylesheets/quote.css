@@ -8,8 +8,12 @@
 h3 {
   font-family: 'Oxygen', sans-serif;
   font-weight:400;
-
 }
+
+.input-group {
+  width: 100%;
+}
+
 .first-row {
   padding-top: 50px;
 }
@@ -31,7 +35,7 @@ h3 {
 
 .btn-submit {
   background-color: var(--arpie_red);
-  font-family: 'Oxygen', sans-serif;
+  /* font-family: 'Oxygen', sans-serif; */
   font-weight: 600;
   font-size: 170%;
   padding-right: 33px;

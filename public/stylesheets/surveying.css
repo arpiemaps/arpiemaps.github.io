@@ -1,0 +1,49 @@
+/* Color Variables  */
+:root {
+  --arpie_blue: #2297de;
+  --arpie_black: #292b2c;
+  --arpie_red: #ff6f58;
+}
+
+#surveying {
+  background: linear-gradient(
+                 rgba(20,20,20, .2),
+                 rgba(20,20,20, .5)),
+                 url( ../images/photos/as_quary-site.jpg);
+
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  z-index: 2;
+  padding-top:170px;
+}
+
+.service-photo {
+  width: 100%;
+}
+
+.industry-photo {
+  height: 30vw;
+  border-color: white;
+  border-style: solid;
+  border-width: 10px;
+}
+
+.industry-text {
+  padding-top: 10vw;
+}
+
+/* MOBILE VIEW */
+@media (max-width: 768px) {
+  #section0 {
+    height: auto;
+  }
+
+  .industry-photo {
+    height: 90vw;
+  }
+  .industry-text {
+    padding-top: 40vw;
+  }
+
+}

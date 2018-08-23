@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg fill="#FFFFFF" width="100pt" height="100pt" version="1.1" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+ <g fill="none" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+  <path transform="matrix(1.6667 0 0 1.6667 1.6667 21.667)" d="m7.8125e-4 33.999h57.998v-12h-57.998z"/>
+  <path transform="matrix(1.6667 0 0 1.6667 1.6667 21.667)" d="m7.8125e-4 17v-16.999"/>
+  <path transform="matrix(1.6667 0 0 1.6667 1.6667 21.667)" d="m57.999 17v-16.999"/>
+  <path transform="matrix(1.6667 0 0 1.6667 1.6667 21.667)" d="m56 9.0008l-4.9992-6"/>
+  <path transform="matrix(1.6667 0 0 1.6667 1.6667 21.667)" d="m51.001 15.001l4.9992-6"/>
+  <path transform="matrix(1.6667 0 0 1.6667 1.6667 21.667)" d="m51.001 3.0008v12"/>
+  <path transform="matrix(1.6667 0 0 1.6667 1.6667 21.667)" d="m51.001 9.0008h-44.002"/>
+  <path transform="matrix(1.6667 0 0 1.6667 1.6667 21.667)" d="m6.9992 2.9984v12.002"/>
+  <path transform="matrix(1.6667 0 0 1.6667 1.6667 21.667)" d="m6.9992 3.0008l-4.9992 6"/>
+  <path transform="matrix(1.6667 0 0 1.6667 1.6667 21.667)" d="m6.9992 15.001l-4.9992-6"/>
+  <path transform="matrix(1.6667 0 0 1.6667 1.6667 21.667)" d="m53.002 21.999l-0.002344 3"/>
+  <path transform="matrix(1.6667 0 0 1.6667 1.6667 21.667)" d="m47 21.999v5.0016"/>
+  <path transform="matrix(1.6667 0 0 1.6667 1.6667 21.667)" d="m41 24.999v-3"/>
+  <path transform="matrix(1.6667 0 0 1.6667 1.6667 21.667)" d="m35 21.999v5.0016"/>
+  <path transform="matrix(1.6667 0 0 1.6667 1.6667 21.667)" d="m29 21.999v3"/>
+  <path transform="matrix(1.6667 0 0 1.6667 1.6667 21.667)" d="m23 21.999v5.0016"/>
+  <path transform="matrix(1.6667 0 0 1.6667 1.6667 21.667)" d="m17 21.999v3"/>
+  <path transform="matrix(1.6667 0 0 1.6667 1.6667 21.667)" d="m11 21.999v5.0016"/>
+  <path transform="matrix(1.6667 0 0 1.6667 1.6667 21.667)" d="m5 21.999v3"/>
+ </g>
+</svg>

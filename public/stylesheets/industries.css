@@ -1,0 +1,159 @@
+/* Color Variables  */
+:root {
+  --arpie_blue: #2297de;
+  --arpie_black: #292b2c;
+  --arpie_red: #ff6f58;
+}
+
+/* - - - - - - - - - - - - - - - -  */
+/* Backgrounds for landing pages */
+/* - - - - - - - - - - - - - - - -  */
+#surveying {
+  background: linear-gradient(
+                 rgba(20,20,20, .2),
+                 rgba(20,20,20, .5)),
+                 url( ../images/photos/city-streets.jpeg);
+
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  z-index: 2;
+  padding-top:170px;
+}
+
+#solar {
+  background: linear-gradient(
+                 rgba(20,20,20, .2),
+                 rgba(20,20,20, .5)),
+                 url( ../images/industry/solar-panels.jpeg);
+
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  z-index: 2;
+  padding-top:170px;
+}
+
+#conservation {
+  background: linear-gradient(
+                 rgba(20,20,20, .2),
+                 rgba(20,20,20, .5)),
+                 url( ../images/photos/conservation-shot.jpeg);
+
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  z-index: 2;
+  padding-top:170px;
+}
+
+#wildfires {
+  background: linear-gradient(
+                 rgba(20,20,20, .2),
+                 rgba(20,20,20, .5)),
+                 url( ../images/industry/wild-fire.jpeg);
+
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  z-index: 2;
+  padding-top:170px;
+}
+
+#roofing {
+  background: linear-gradient(
+                 rgba(20,20,20, .2),
+                 rgba(20,20,20, .5)),
+                 url( ../images/industry/roof.jpg);
+
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  z-index: 2;
+  padding-top:170px;
+}
+
+#construction {
+  background: linear-gradient(
+                 rgba(20,20,20, .2),
+                 rgba(20,20,20, .5)),
+                 url( ../images/photos/as_house-walls.jpeg);
+
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  z-index: 2;
+  padding-top:170px;
+}
+
+#insurance {
+  background: linear-gradient(
+                 rgba(20,20,20, .2),
+                 rgba(20,20,20, .5)),
+                 url( ../images/industry/insurance.jpeg);
+
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  z-index: 2;
+  padding-top:170px;
+}
+
+#realestate {
+  background: linear-gradient(
+                 rgba(20,20,20, .2),
+                 rgba(20,20,20, .5)),
+                 url( ../images/photos/as_quary-site.jpg);
+
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  z-index: 2;
+  padding-top:170px;
+}
+
+#drone-training {
+  background: linear-gradient(
+                 rgba(20,20,20, .2),
+                 rgba(20,20,20, .5)),
+                 url( ../images/photos/drone-takingphoto.jpeg);
+
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  z-index: 2;
+  padding-top:170px;
+}
+/* - - - - - - - - - - - - - - - -  */
+/* Backgrounds for landing pages */
+/* - - - - - - - - - - - - - - - -  */
+
+.service-photo {
+  width: 100%;
+}
+
+.industry-photo {
+  height: 30vw;
+  border-color: white;
+  border-style: solid;
+  border-width: 10px;
+}
+
+.industry-text {
+  padding-top: 10vw;
+}
+
+/* MOBILE VIEW */
+@media (max-width: 768px) {
+  #section0 {
+    height: auto;
+  }
+
+  .industry-photo {
+    height: 90vw;
+  }
+  .industry-text {
+    padding-top: 40vw;
+  }
+
+}
