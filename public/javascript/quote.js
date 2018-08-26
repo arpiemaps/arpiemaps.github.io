@@ -13,6 +13,7 @@ $(document).ready(function() {
 
 
     $("#quoteButton").click(()=>{
+      $("#error").hide();
       console.log('HI');
       var data = {};
 
@@ -31,11 +32,25 @@ $(document).ready(function() {
           data.services.push( $(this).val() );
       });
       // console.log(data);
-      
-      // Record an event
-      client.recordEvent('quote', {
-        freeQuote: data
-      });
+
+
+      // check to see if all the fields are there
+      if (data.phone || data.email) {
+        // Record an event
+        client.recordEvent('quote', {
+          freeQuote: data
+        });
+
+        // Redirect
+        window.location.replace("./thankyou.html");
+      }
+      else {
+        // give notice that fields aren't filled out
+        window.scrollTo(0, 0);
+        console.log('Nope');
+        $("#error").show();
+      }
+
     });
     // End quotebutton
   });

@@ -44,12 +44,12 @@
               <ul class="nav navbar-nav">
                   <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
                   <li>
-                      <a class="navbar-font active-nav" href="./index.html">Home</a>
+                      <a class="navbar-font" href="./index.html">Home</a>
                   </li>
                   <li>
                       <a class="navbar-font" href="./services.html">Drone Services</a>
                   </li>
-                  <li role="presentation" class="dropdown">
+                  <!-- <li role="presentation" class="dropdown">
                       <a class="dropdown-toggle navbar-font" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Industries <span class="caret"></span></a>
                       <ul class="dropdown-menu">
                         <li>
@@ -80,7 +80,7 @@
                           <a class="navbar-font navbar-dropdown-item" href="./industry/drone-training.html">Drone Training</a>
                         </li>
                       </ul>
-                  </li>
+                  </li> -->
                   <li>
                       <a class="navbar-font" href="./contact.html">Contact</a>
                   </li>
@@ -99,13 +99,19 @@
         <h1 class="arpie-title section-titles">Free Quote</h1>
         <img class="img img-responsive einstein center-block" src="./public/images/np/albert-einstein-black.svg" alt="">
         <br>
-        <p class="arpie-p"> "Look deep into nature, and then you will understand everything better. -Albert Einstein" </p>
+        <p class="arpie-p"> "Look deep into nature, and then you will understand everything better." -Albert Einstein </p>
       </div>
       <div class="row">
         <div class="col-sm-6 col-sm-offset-3">
           <div class="well">
-            <h2 class="arpie-p">Fill out this form and we will e-mail you with a free quote.</h2>
+            <h2 class="arpie-p">Fill out this form and we will e-mail you a free quote:</h2>
           </div>
+        </div>
+      </div>
+      <!-- Error Message -->
+      <div class="row" hidden id="error">
+        <div class="col-sm-6 col-sm-offset-3">
+          <div class="alert alert-danger" role="alert">Please fill out at least your phone number or email address so we can get ahold of you.</div>
         </div>
       </div>
     </div>
@@ -164,10 +170,10 @@
           <!-- Services -->
           <h3 class="arpie-p" class="text-left services">Desired Services</h3>
           <div class="checkbox text-left">
-            <label><input type="checkbox" value="Areal Photography">Areal Photography</label>
+            <label><input type="checkbox" value="Areal Photography">Aireal Photography</label>
           </div>
           <div class="checkbox text-left">
-            <label><input type="checkbox" value="Areal 4K Videography">Areal 4K Videography</label>
+            <label><input type="checkbox" value="Areal 4K Videography">Aireal 4K Videography</label>
           </div>
           <div class="checkbox text-left">
             <label><input type="checkbox" value="Photogrammetric Maps">Photogrammetric Maps</label>
