@@ -320,8 +320,6 @@ p {
     margin-bottom:0px;
   }
 
-  /*  */
-
   .btn-default {
     font-size: 20px;
     margin-top: 15%;
@@ -333,6 +331,10 @@ p {
 
   .copyright {
     font-size: 80%;
+  }
+
+  .padded-col {
+    padding-bottom:40px;
   }
 }
 

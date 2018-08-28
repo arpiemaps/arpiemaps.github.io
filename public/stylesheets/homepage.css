@@ -20,21 +20,11 @@
   padding-left:50px;
 }
 
-  #myVideo {
-    position: fixed;
-    right: 0;
-    top: 0;
-    min-width: 100%;
-    min-height: 50%;
-    z-index:-1;
-}
-
 #section0 {
   background: linear-gradient(
                  rgba(20,20,20, .2),
                  rgba(20,20,20, .5)),
                  url( ../images/photos/as_quary-site.jpg);
-                 /* url( ../images/background/rolling_hills.jpg); */
 
   background-size: cover;
   background-position: center;
