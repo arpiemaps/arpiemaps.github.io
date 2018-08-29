@@ -127,9 +127,10 @@ p {
 }
 
 .btn-default {
-  background: none;
+  /* background: none; */
+  background-color: white;
   border-color: var(--arpie_red);
-  border-width: thin;
+  border-width: 2px;
   color: var(--arpie_red);
   /* color: white; */
   font-size: 120%;
@@ -159,7 +160,6 @@ p {
   border-color: var(--arpie_red);
   border-width: medium;
   color: white;
-  /* color: white; */
   font-size: 120%;
   font-family: 'Oxygen', sans-serif;
   font-weight: 500;
