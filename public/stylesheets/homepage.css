@@ -45,6 +45,7 @@
 }
 
 .industry-text {
+  font-size: 290%;
   padding-top: 10vw;
 }
 
@@ -149,7 +150,8 @@
     height: 90vw;
   }
   .industry-text {
-    padding-top: 40vw;
+    padding-top: 35vw;
+    font-size: 270%;
   }
 
 }

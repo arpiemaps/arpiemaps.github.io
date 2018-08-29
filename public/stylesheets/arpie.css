@@ -6,8 +6,18 @@
   --arpie_green: #39ca74;
 }
 
-body {
-  width: 100vw;
+body, html{
+    margin:0;
+    padding:0;
+}
+/* body {
+  width: 100%;
+} */
+
+#navbar {
+  margin:0;
+  padding:0;
+  width: 100%;
 }
 
 #free-quote {
@@ -24,13 +34,13 @@ body {
 .container {
   margin-left: 0px;
   margin-right: 0px;
-  width: 100vw;
+  width: 100%;
 }
 
 p {
   padding-bottom:15px;
   line-height: 2;
-  font-size: 120%;
+  font-size: 133%;
 }
 
 .full-section {
@@ -45,6 +55,10 @@ p {
 
 .section {
   text-align: center;
+}
+
+.red {
+  color: var(--arpie_red);
 }
 
 /* - - - - - - - - - - - - - - - - - - - - */
@@ -93,6 +107,10 @@ p {
   font-family: 'Oxygen', sans-serif;
   font-weight: 500;
   text-transform: uppercase;
+}
+
+.arpie-light-font {
+  font-weight: 300;
 }
 
 .copyright {

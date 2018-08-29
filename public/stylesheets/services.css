@@ -24,7 +24,7 @@
 }
 
 .industry-photo {
-  height: 30vw;
+  max-height: 30vw;
   border-color: white;
   border-style: solid;
   border-width: 10px;
@@ -32,6 +32,10 @@
 
 .industry-text {
   padding-top: 10vw;
+}
+
+.industry-col {
+  padding-bottom: 70px;
 }
 
 /* MOBILE VIEW */
