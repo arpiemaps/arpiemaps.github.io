@@ -14,7 +14,7 @@
 
   background-size: cover;
   background-position: center;
-  height: 50vh;
+  min-height: 66vh;
   z-index: 2;
   padding-top:170px;
 }
